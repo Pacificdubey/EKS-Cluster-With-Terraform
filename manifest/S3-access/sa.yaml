@@ -2,6 +2,6 @@ apiVersion: v1
 kind: ServiceAccount
 metadata:
    annotations:
-    eks.amazonaws.com/role-arn: arn:aws:iam::050584725437:role/workload-role
+    eks.amazonaws.com/role-arn: arn:aws:iam::<Account-ID>:role/workload-role
    name: workload-sa
    namespace: default
